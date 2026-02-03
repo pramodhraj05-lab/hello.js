@@ -2,38 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DOM Operation Example</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        button {
-            padding: 10px 15px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        #output {
-            margin-top: 20px;
-            font-size: 18px;
-            color: green;
-            font-weight: bold;
-        }
-    </style>
+    <title>EUR to INR</title>
 </head>
 <body>
-   <div>Factors
-      <input type="text" class="factors" />
-   </div>
 
-    <div>Multiples
-      <input type="text" class="multiples" />
-   </div>
+    <h2>EUR to INR Exchange Rate</h2>
+    <button onclick="getRate()">Get Current Rate</button>
+    <p id="result"></p>
 
-    <button id="calcBtn">Calculate</button>
-
-    <div id="output"></div>
-
-    <script src="test.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
